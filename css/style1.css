@@ -1,0 +1,308 @@
+.all 
+{
+  width: 65%;
+  border:solid #B01616 3px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body
+{
+  justify-content: center;
+  align-items: center;
+  background-color: #B36464;
+}
+
+main
+{
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h4
+{
+  text-decoration: underline;
+  font-size:18px;
+}
+
+#logo
+{
+  height: auto;
+  width: 90%;
+  margin:0 5%;
+  padding-bottom: 7px;
+}
+
+.copyright 
+{
+  font-size:11px;
+  text-align:center;
+}
+/* End of all */
+
+
+/*Accueil*/
+
+#corps
+{
+  text-align:center;
+}
+
+
+.liens
+{
+  background-color: #DF1010;
+  padding-top: 2px;
+  font-size:14px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+
+.liens a 
+{
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 5px 8px;
+  text-decoration: none;
+}
+
+.liens a:hover 
+{
+	background-color: white;
+  color: black;
+}
+
+
+.table:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* End of Accueil */
+
+
+/* Contacteznous */
+
+input[type=text], select 
+{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select 
+{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] 
+{
+  width: 100%;
+  background-color: #EF6060;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #DB2E09;
+}
+
+#submitdevis
+{
+  width:89%;
+}
+
+.formulaire
+{
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-top:solid black 1px;
+  text-align: center;
+}
+
+/* End of contactezmoi */
+
+/* Nos bureaux */
+
+#bureaux
+{
+  width:30%;
+  background-color: #EF6060;
+  margin:0 auto;
+}
+
+#bureaux:hover
+{
+  background-color: #DB2E09;
+}
+
+#bureauxform
+{
+  margin-top: 20px;
+}
+
+.listebureaux
+{
+  width:30%;
+  border:solid #B01616 2px;
+  margin:0 auto;
+}
+
+#contacterbureaux
+{
+  width: 50%;
+  margin-left: 24%;
+}
+
+#switch
+{
+  text-align: center;
+}
+
+.equipe
+{
+  width:97.5%;
+  padding: 10px;
+  border-top:solid black 1px;
+  font-size: 15px;
+}
+
+.equipe:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.photo
+{
+  width:180px;
+  height: 200px;
+  border:solid black 1px;
+}
+
+.fullequipe
+{
+  width:100%;
+}
+
+#partenaires
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.part
+{
+  width: 170px;
+  height:180px;
+  padding:20px;
+}
+
+.part:hover
+{
+  border:solid red 2px;
+}
+
+#bnp
+{
+  width: 320px;
+  height: 200px;
+}
+
+#bnp:hover
+{
+  border:solid red 2px;
+}
+
+#belfius
+{
+  width: 310px;
+  height: 180px;
+}
+
+#belfius:hover
+{
+  border:solid red 2px;
+}
+/* End of Nos Bureaux */
+
+#imgsim
+{
+  width:100%;
+}
+
+#imgsim img
+{
+  width:100px;
+  height:100px;
+  margin-bottom: 40px;
+}
+
+#imgsim img:hover
+{
+  border:solid red 2px;
+}
+
+#textbeforesim
+{
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+#events
+{
+  margin:20px;
+  margin-bottom: 3px;
+}
+
+#presentation
+{
+  border-bottom: solid black 1px;
+}
+
+#AT
+{
+  border-bottom: dashed black 1px;
+  margin-top: 10px;
+}
+
+#salontrading
+{
+  border-bottom: dashed black 1px; 
+  margin-top: 10px;
+}
+
+#Actionaria
+{
+  border-bottom: dashed black 1px; 
+  margin-top: 10px;
+}
+
+#Financium
+{
+  margin-top: 10px;
+}

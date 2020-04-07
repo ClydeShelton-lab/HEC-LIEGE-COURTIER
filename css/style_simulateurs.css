@@ -1,0 +1,120 @@
+.all 
+{
+  width: 65%;
+  border:solid #B01616 3px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body
+{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #B36464;
+}
+
+main
+{
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.copyright 
+{
+  font-size:11px;
+  text-align:center;
+}
+
+footer
+{
+  padding-top: 20px;
+}
+
+#logo
+{
+  height: auto;
+  width: 90%;
+  margin:0 5%;
+  padding-bottom: 7px;
+}
+
+.liens
+{
+  background-color: #DF1010;
+  padding-top: 2px;
+  font-size:14px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+}
+
+.liens a 
+{
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+.liens a:hover 
+{
+  background-color: white;
+  color: black;
+}
+
+/*Simulateur_credit*/
+
+input[type=number], select 
+{
+  padding: 8px 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type=submit] 
+{
+  background-color: #EF6060;
+  color: white;
+  padding: 8px 14px;
+  margin:3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #DB2E09;
+}
+
+.form
+{
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.PHP
+{
+  margin:auto;
+  text-align: center;
+}
+
+.formresultats
+{
+  padding: 5px;
+}
+
+td 
+{
+  border:solid #B01616 1px;
+  font-size: 16px;
+  padding: 5px;
+}
+/* Fin de Simulateur_credit */
